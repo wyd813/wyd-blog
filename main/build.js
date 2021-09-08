@@ -22,7 +22,7 @@ const fs=require('fs')
 const tool=require('../utils/tool')
 
 // const access=require('./access')
-const conf=require('./conf')("LTAI5t5oB4gTzuS1V2tB8DEb",'wXWVZCH5ZivavNp0a68Rq0LxQHJR6l')
+const conf=require('./conf')("",'')
 const OSS = require('ali-oss')
 const mdsOld=require('../menu/mds')
 const stOld=require('../menu/st')
